@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="js/close_alert.js"></script>
+        <script src="js/formcalc.js"></script>
+    
+</head>
+
+<body>
+    <div class="col-6">
+        <h3>Megrendelolap</h3>
+        <div class="alert alert-info alert-dismissible fade show" role="alert">
+            <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <form>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                    else.</small>
+            </div>
+            <div class="form-group">
+                <label for="osszetevok">összetevő</label>
+                <input type="number" class="form-control" name="osszetevok">
+            </div>
+
+            <div class="form-group form-check">
+                A fizetendő összeg: <span class="osszeg">0</span> Ft
+            </div>
+            <button onclick="calcSum()" type="button" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+
+</body>
+
+</html>

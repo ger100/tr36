@@ -1,0 +1,24 @@
+{
+  "name": "tr36",
+  "version": "1.0.0",
+  "description": "ez csak teszt",
+  "main": "index.js",
+  "dependencies": {
+    "font-awesome": "^4.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kojak105/tr36.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kojak105/tr36/issues"
+  },
+  "homepage": "https://github.com/kojak105/tr36#readme"
+}

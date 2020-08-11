@@ -1,0 +1,18 @@
+{
+    "users":[
+        {"id":"1","firstnamename": "Teszt1", "lastname":"Feri1", "email":"valami@valami.com"},
+        {"id":"2","firstnamename": "Teszt2", "lastname":"Feri2", "email":"valami@valami.com"},
+        {"id":"3","firstnamename": "Teszt3", "lastname":"Feri3", "email":"valami@valami.com"},
+        {"id":"4","firstnamename": "Teszt4", "lastname":"Feri3", "email":"valami@valami.com"},
+        {"id":"5","firstnamename": "Teszt5", "lastname":"Feri3", "email":"valami@valami.com"},
+        {"id":"6","firstnamename": "Teszt6", "lastname":"Feri3", "email":"valami@valami.com"},
+        {"id":"7","firstnamename": "Teszt7", "lastname":"Feri3", "email":"valami@valami.com"},
+        {"id":"8","firstnamename": "Teszt8", "lastname":"Feri3", "email":"valami@valami.com"},
+        {"id":"9","firstnamename": "Teszt9", "lastname":"Feri3", "email":"valami@valami.com"},
+        {"id":"10","firstnamename": "Teszt10", "lastname":"Feri3", "email":"valami@valami.com"},
+        {"id":"11","firstnamename": "Teszt11", "lastname":"Feri3", "email":"valami@valami.com"}      
+    ],
+    "comments":[
+        {"id":"1","body":"ez a szoveg helye", "userId":"1"}
+    ]
+}
